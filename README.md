@@ -16,18 +16,19 @@ I completed each task in `bot.py` for 12 points.
 
 I also completed the github repo, stated the candidate my bot supports, and posted my favorite thread, for 3 points.
 
-I got 1000 valid comments for 10 points. Running `bot_counter.py` file on backpagebot gives: 
+I got 804 valid comments for 6 points. Running `bot_counter.py` file on backpagebot gives: 
 ```
 len(comments)= 1000
-len(valid_top_level_comments)= 345
-len(top_level_comments)= 345
-len(replies)= 655
-len(not_self_replies)= 655
-len(valid_replies)= 655
-========================================
-valid_comments= 1000
-========================================
-NOTE: the number valid_comments will be used to determine your grade
+len(top_level_comments)= 146
+len(replies)= 854
+len(valid_top_level_comments)= 104
+len(not_self_replies)= 818
+len(valid_replies)= 700
+========================================     
+valid_comments= 804
+========================================     
+NOTE: the number valid_comments will be used 
+to determine your grade
 ```
 I created `bot_submissions.py` and posted at least 200 text or link posts (mainly from r/conservative, but some from r/liberal) for 2 points. 
 
@@ -45,4 +46,4 @@ to_reply.reply(generate_comment())
 
 I created `bot_vote.py` and implemented TextBlob to downvote all posts and comments relating to Donald Trump, and upvote most posts and comments relating to Joe Biden, for 4 points.
 
-Final score: 12 + 3 + 10 + 2 + 2 + 2 + 4 = 35 points.
+Final score: 12 + 3 + 6 + 2 + 2 + 2 + 4 = 31/30 points.
